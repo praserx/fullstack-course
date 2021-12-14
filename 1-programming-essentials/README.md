@@ -65,6 +65,7 @@
    2. Slice declaration and definition
    3. Go memory management and garbage collector (Go vs. C vs. Rust vs. Python)
    4. Memory management and security
+   5. Buffer overflow attack
 3. Functions and program flow, scopes, global and local variables
    1. Function declaration and definition, how to properly comment a function
    2. Program flow a scopes
@@ -97,6 +98,10 @@
 - [slices intro](https://go.dev/blog/slices-intro)
 - [slices explanation](https://golangbyexample.com/slice-in-golang/)
 - [go tools compiler](https://medium.com/martinomburajr/go-tools-the-compiler-part-1-assembly-language-and-go-ffc42cbf579d)
+- [buffer overflow owasp - vuln](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
+- [buffer overflow owasp - attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack)
+- [buffer overflow wiki](https://en.wikipedia.org/wiki/Buffer_overflow)
+- [slice tricks](https://github.com/golang/go/wiki/SliceTricks)
 
 #### Simple tasks
 
