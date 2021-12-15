@@ -115,7 +115,7 @@
 
 1. Simple debugging
    1. Adding debugging output
-   2. Debugging in VS Code
+   2. [Debugging in VS Code](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)
 2. Packages and package imports, Go modules
    1. Create and import our own libraries
    2. Go modules and modules history
@@ -123,15 +123,11 @@
    1. How to use [range](https://gobyexample.com/range) a when to use it
    2. [Defer](https://gobyexample.com/defer) usage
 4. [Structures](https://gobyexample.com/structs)
-5. Recursion
-   1. Loops vs. recursion
-6. File processing
+5. File processing
    1. [Open and read file](https://gobyexample.com/reading-files)
    2. [Open and write to file](https://gobyexample.com/writing-files)
-7. Flags and program inputs (configs)
-   1. [Command-line arguments](https://gobyexample.com/command-line-arguments)
-   2. [Command-line flags](https://gobyexample.com/command-line-flags)
-8. Software security
+6. Recursion
+   1. Loops vs. recursion
 
 #### Lesson resources
 
@@ -145,10 +141,18 @@
 #### Simple tasks
 
 - Write program that guess original password from md5 hash (during the lesson we will extend this app)
+- Write program that list content of some directory
+  - And its subdirectories
+  - And its directories (recursively)
 
 ### Lesson 4 (7 hours)
 
 *TODO*
+
+7. Flags and program inputs (configs)
+   1. [Command-line arguments](https://gobyexample.com/command-line-arguments)
+   2. [Command-line flags](https://gobyexample.com/command-line-flags)
+6. Software security
 
 ### Lesson 5 (4 hours)
 
