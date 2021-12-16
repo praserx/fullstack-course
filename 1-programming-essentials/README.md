@@ -32,6 +32,9 @@
    4. Switch
 7. Error handling
 
+Some topics during the day:
+- [String formatting](https://gobyexample.com/string-formatting)
+
 #### Lesson Resources
 
 - [golang.org, go.dev](https://go.dev/)
@@ -88,6 +91,10 @@
       1. [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
       2. [PE](https://en.wikipedia.org/wiki/Portable_Executable)
 
+Some topics during the day:
+- [Random numbers](https://gobyexample.com/random-numbers)
+- [Working with time](https://gobyexample.com/time-formatting-parsing) and with [time.Sleep()](https://pkg.go.dev/time#Sleep)
+
 #### Lesson Resources
 
 - [go doc](https://go.dev/doc/)
@@ -129,6 +136,10 @@
 6. Recursion
    1. Loops vs. recursion
 
+Some topics during the day:
+- [Strings library](https://gobyexample.com/string-functions)
+- [Hashing](https://gobyexample.com/sha1-hashes) and [MD5](https://pkg.go.dev/crypto/md5#Sum)
+
 #### Lesson resources
 
 - [GDB](https://go.dev/doc/gdb)
@@ -147,12 +158,42 @@
 
 ### Lesson 4 (7 hours)
 
-*TODO*
+#### Lesson Plan
 
-7. Flags and program inputs (configs)
+1. Git vs. GitLab and GitHub applications
+   1. Go and Git
+2. Sorting and sorting algorithms
+   1. [Go sorting functions](https://gobyexample.com/sorting)
+   2. [Custom sort function](https://pkg.go.dev/sort#example-Slice)
+3. Flags and program inputs (configs)
    1. [Command-line arguments](https://gobyexample.com/command-line-arguments)
    2. [Command-line flags](https://gobyexample.com/command-line-flags)
-6. Software security
+4. File formats (JSON, XML)
+   1. [JSON](https://gobyexample.com/json) file format
+   2. [XML](https://gobyexample.com/xml) file format
+5. Encoding
+   1. [Base64](https://gobyexample.com/base64-encoding)
+6. HTTP protocol a network communication
+   1. How network communication work
+   2. How HTTP protocol looks like
+7. Web requests in Go
+   1. Simple [HTTP client](https://gobyexample.com/http-clients) in go
+   2. Web APIs and REST APIs
+
+#### Lesson resources
+
+- [Five in row](https://piskvorky.jobs.cz/)
+- [Some free APIs without registration](https://apipheny.io/free-api/)
+- [Random user API](https://randomuser.me/documentation)
+- [My IP address API](https://api.ipify.org/?format=json)
+- [My IP info](ipinfo.io/json)
+- [Get some activity](https://www.boredapi.com/api/activity)
+
+#### Simple tasks
+
+- Create program that works with flags
+- Create program that works with flags and which read JSON file on input
+- Create program witch request API and store its data
 
 ### Lesson 5 (4 hours)
 
